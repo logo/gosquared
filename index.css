@@ -1,18 +1,2 @@
-
-/**
- * GoSquared
- */
-
-.logo[data-logo="GoSquared"] {
-  width: 4.7806245em;
-  /* (127.02/24.98) * (1+.05-.1) - .05 */
-}
-
-.logo[data-logo="GoSquared"] > * {
-  background-image: url(images/logo.svg);
-  margin: -.05em 0 .1em -.05em;
-}
-
-.logo[data-logo="GoSquared"].monochromatic > * {
-  background-image: url(images/logo-monochromatic.svg);
-}
+@import 'logo/logo';
+@import './style';
